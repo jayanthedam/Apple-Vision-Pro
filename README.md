@@ -1,2 +1,2 @@
 # Apple-Vision-Pro
-Cloning the Apple Vision pro website :- https://www.apple.com/apple-vision-pro/
+This is my project of trying to cloning the **Apple Vision Pro website** :- https://www.apple.com/apple-vision-pro/
