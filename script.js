@@ -102,3 +102,18 @@ var t3 = gsap.timeline({
 t3.to("#page4>#page4-center",{
   top:`-50%`
 })
+
+
+var t4 = gsap.timeline({
+  scrollTrigger:{
+    trigger: `#page14`,
+    start:`top top`,
+    scrub:1,
+    scroller: `#main`,
+    pin:true
+  }
+})
+
+t4.to("#page14 #troff",{
+  opacity: 0
+})

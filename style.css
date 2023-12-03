@@ -23,7 +23,6 @@ video{
     width: 100vw;
     background-color: black;
 }
-
 #page>nav{
     display: flex;
     align-items: center;
@@ -222,13 +221,11 @@ video{
     width: 50%;
     padding: 5vw;
 }
-
 .right5 > h3 {
     font-size: 1.8vw;
     width: 90%;
     color: #86868b ;
 }
-
 .right5 > button {
     padding: 10px 20px;
     font-weight: 600;
@@ -251,7 +248,6 @@ video{
     width: 100vw;
     background-color: #f5f5f7;
 }
-
 #page6 h3{
     margin-bottom: 1vw;
     font-size: 2vw;
@@ -269,7 +265,8 @@ video{
     text-align: center;
     margin: 0 auto; /* Center the paragraph within its container */
 
-}#page7 {
+}
+#page7 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -277,30 +274,194 @@ video{
     margin: 0 auto; /* Center the content */
     background-color: #f5f5f7;
 }
-
 .page7-left {
     flex: 1;
     padding: 20px;
     width: 40%;
     margin-left: 20%;
 }
-
 .page7-left h2 {
     margin-bottom: 10px;
-    font-weight: 900;
-    font-style: bold;
 }
-
 .page7-left p {
     margin-bottom: 20px;
 }
-
 .page7-right {
     flex: 1;
     /* max-width: 800px; Adjust the max-width of the image */
 }
-
 .page7-right img {
     width: 90%;
     height: auto;
+}
+
+#page8{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 100VH;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#page8-left{
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/b/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+    position: relative;
+}
+#page8-right{
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/b/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+    position: relative;
+}
+
+#page10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+#page10-center{
+    height: 90%;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+}
+
+#page10-center video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page11{
+    position: relative;
+    height: 125vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page11 img{
+    width: 50%;
+    position: absolute;
+    bottom: 0%;
+}
+#page11 h2{
+    position: absolute;
+    width: 45%;
+    color: #919195 ;
+    top: 0%;
+}
+#page11 h2 span{
+    color: black;
+}
+#page11 button{
+    position: absolute;
+    bottom: 10%;
+
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #ff5a00;
+    border: none;
+    font-size: 1.3vw;
+    color: white;
+}
+/* #page12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 120vh; 
+    width: 100vw;
+    background-color: black;
+    color: #86868b;
+    
+}
+#page12-para{
+    max-width: 47vw;
+    text-align: center;
+    margin: 10px auto;
+}
+#page12 h4 span{
+    color: white;
+}
+#page12 h1{
+    color: white;
+}
+#page12-mid img{
+    width: 50%;
+    align-items: center;
+}
+#page12-bottom{
+    width: 47vw;
+}
+#page12-bottom span{
+    color: white;
+} */
+
+#page13{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#page13 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page13-center{
+    position: absolute;
+    height: 20%;
+    width: 23%;
+    bottom: 50%;
+    right: 15%;
+    color: white;
+
+}
+#page13-center h2{
+    margin-bottom: 1.7vw;
+    font-size: 2vw;
+}
+#page13-center p{
+    text-align: start;
+    color: #86868b;
+}
+#page13-center p span{
+    font-weight: 500;
+    text-align: start;
+    color: white;
+}
+#page14{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#page14 #troff{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    z-index: 9;
+}
+
+#page14 #tron{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
 }
